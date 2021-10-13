@@ -1,0 +1,310 @@
+/* Adding Style for the secong page heading */
+
+.heading-combine {
+    display: flex;
+    width: 85%;
+    justify-content: center;
+    align-items: center;
+}
+
+.backbutton {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.fas {
+    font-size: 42px;
+    margin-top: 25px;
+    margin-left: auto;
+}
+
+.anc {
+    margin: 20px 30px;
+    margin-top: 16px;
+    text-decoration: none;
+    font-size: 38px;
+    color: gray;
+}
+
+
+/* main Card */
+
+.main-card {
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    width: 45%;
+    border: 1px solid tomato;
+    border-radius: 10px;
+    box-shadow: 6px 6px 7px 4px lightgray;
+    margin-bottom: 25px;
+    margin-top: 45px;
+    position: relative;
+}
+
+.pos {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.card-heading {
+    margin-left: 30%;
+}
+
+.headingstyle {
+    color: tomato;
+    font-weight: 400;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.boxw {
+    width: 18px;
+    height: 18px;
+    margin-left: 12px;
+}
+
+.check {
+    font-size: 24px;
+    margin-bottom: 180px;
+    text-align: center;
+}
+
+.backbutton-mobile {
+    display: none;
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width: 1215px) {
+    .cards {
+        width: 50%;
+    }
+    .heading-task {
+        font-size: 4rem;
+    }
+    .backbutton-mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .cards {
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 949px) {
+    .cards {
+        width: 60%;
+    }
+    .heading-add {
+        font-size: 2rem;
+        margin-left: 6px;
+    }
+    .heading-task {
+        font-size: 4rem;
+    }
+    .heading-list {
+        font-size: 4rem;
+    }
+    .fas {
+        font-size: 2rem;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .cards {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 749px) {
+    .cards {
+        width: 72%;
+    }
+    .heading-add {
+        display: none;
+    }
+    .heading-task,
+    .heading-list {
+        font-size: 4rem;
+    }
+    .fas {
+        font-size: 2rem;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .cards {
+        width: 78%;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .cards {
+        width: 92%;
+    }
+    .heading-task,
+    .heading-list {
+        font-size: 3.5rem;
+    }
+    .fas {
+        font-size: 2rem;
+        margin-top: 15px;
+    }
+    .backbutton,
+    .heading-combine {
+        display: none;
+    }
+    .backbutton-mobile {
+        display: inline-block;
+    }
+    .anc2 {
+        margin: 20px 30px;
+        margin-top: 16px;
+        text-decoration: none;
+        font-size: 3rem;
+        font-weight: bold;
+        color: black;
+    }
+    .main-container {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .cards {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .cards {
+        width: 96%;
+    }
+    .heading-task {
+        font-size: 3rem;
+    }
+    .heading-list {
+        font-size: 3rem;
+        margin-left: 6px;
+    }
+    .fas {
+        font-size: 1.8rem;
+        margin-top: 10px;
+    }
+    .headingstyle {
+        font-size: 1.7rem;
+        margin-top: 24px;
+        margin-bottom: 10px;
+    }
+    .headingstyle2 {
+        font-size: 1.5rem;
+    }
+    .anchors {
+        font-size: 20px;
+    }
+    .anc2 {
+        margin: 20px 30px;
+        margin-top: 16px;
+        text-decoration: none;
+        font-size: 2.37rem;
+        font-weight: bold;
+        color: black;
+    }
+    .main-container {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .cards {
+        width: 100%;
+    }
+    .heading-task {
+        font-size: 2rem;
+    }
+    .heading-list {
+        font-size: 2rem;
+        margin-left: 4px;
+    }
+    .fas {
+        font-size: 1.8rem;
+        margin-top: 10px;
+    }
+    .headingstyle {
+        font-size: 1.55rem;
+        margin-top: 24px;
+        margin-bottom: 10px;
+    }
+    .headingstyle2 {
+        font-size: 1.4rem;
+    }
+    .anchors {
+        font-size: 18px;
+    }
+    .anc2 {
+        margin: auto;
+        text-decoration: none;
+        font-size: 2.18rem;
+        font-weight: bold;
+        color: black;
+    }
+    .main-container {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 355px) {
+    .heading-task {
+        font-size: 1.7rem;
+    }
+    .heading-list {
+        font-size: 1.7rem;
+        margin-left: 2px;
+    }
+    .fas {
+        font-size: 1.5rem;
+        margin-top: 6px;
+    }
+    .headingstyle {
+        font-size: 1.2rem;
+        margin-top: 20px;
+        margin-bottom: 8px;
+    }
+    .headingstyle2 {
+        font-size: 1rem;
+    }
+    .anchors {
+        font-size: 15px;
+    }
+    .anc2 {
+        margin: auto;
+        text-decoration: none;
+        font-size: 1.8rem;
+        font-weight: bold;
+        color: black;
+    }
+    .main-container {
+        margin-top: 50px;
+    }
+    .boxw {
+        width: 12px;
+        height: 12px;
+        margin-left: 5px;
+    }
+    .check {
+        font-size: 16px;
+        margin-bottom: 150px;
+    }
+}

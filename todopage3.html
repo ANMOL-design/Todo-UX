@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoList - UI</title>
+    <link rel="stylesheet" href="./css/Todo.css">
+    <link rel="stylesheet" href="./css/Todo2.css">
+    <link rel="stylesheet" href="./css/Todo3.css">
+    <link rel="icon" href="./Images/fav.jpg">
+    <link rel="stylesheet" href="./css/all.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="main-content">
+            <!-- Adding the Head using table-->
+            <div class="heading-combine ">
+                <table width="100%" cellspacing="0px">
+                    <tr>
+                        <td style="width:25%">
+                            <hr/>
+                        </td>
+                        <td style="vertical-align:middle; text-align: center" width="50%" class="heading-task">Trip To Paris</td>
+                        <td style="width:25%">
+                            <hr/>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <!-- Adding a back button -->
+            <div class="backbutton">
+                <a href="./index.html" class="anc"> <i class="fas fa-arrow-alt-circle-left"></i> Back</a>
+            </div>
+
+            <!-- Adding the Trip Card -->
+            <div class="main-card">
+                <div class="cards">
+                    <div class="card-heading">
+                        <h2 class="headingstyle">Trip to Paris</h2>
+                        <hr>
+                    </div>
+                    <div class="main-data">
+                        <h2 class="headingstyle2">Completed Task</h2>
+                        <div class="check">
+                            <input type="checkbox" name="Task" id="tasks1" class="boxw">
+                            <label for="tasks1">Pending Task</label>
+                        </div>
+                        <i class="fas fa-plus-circle pos"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Adding the Upper layer to our main page -->
+
+    <div class="upper-content">
+        <h2 class="heading-decoration">Add New Todo</h2>
+        <input type="text" name="Line" id="" class="boxtext">
+        <div class="button-style">
+            <a href="./index.html" class="anchors">
+                <p class="add-button">ADD</p>
+            </a>
+        </div>
+    </div>
+
+    <!-- Adding the Change position to our main page -->
+    <div class="location">
+        <a href="./todopage2.html" class="anchors"> <i class="fas fa-arrow-alt-circle-left"></i> Prev..</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="./index.html" class="anchors">..Next  <i class="fas fa-arrow-alt-circle-right"></i></a>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,362 @@
+/* Adding Styles for main-container */
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.main-content {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 2px solid gray */
+}
+
+
+/* Adding style for main heading ToDo Lists */
+
+.main-heading {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid red */
+}
+
+.heading-task {
+    font-weight: bolder;
+    font-size: 4.5rem;
+}
+
+.heading-list {
+    font-weight: 100;
+    color: gray;
+    font-size: 4.5rem;
+    margin-left: 8px;
+}
+
+a {
+    margin-left: auto;
+}
+
+.fas {
+    color: tomato;
+    font-size: 2.1rem;
+    margin-top: 25px;
+}
+
+.heading-add {
+    font-weight: 100;
+    color: gray;
+    font-size: 2.2rem;
+    margin-left: 12px;
+    margin-top: 46px;
+}
+
+
+/* Adding style for main cards */
+
+.main-card {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* border: 2px solid green; */
+}
+
+
+/* Assign the card property */
+
+.cards {
+    width: 30%;
+    border: 1px solid tomato;
+    border-radius: 10px;
+    box-shadow: 6px 6px 7px 4px lightgray;
+    margin-bottom: 25px;
+}
+
+.card-heading {
+    margin-left: 50px;
+}
+
+.card-anchor {
+    text-decoration: none;
+}
+
+.headingstyle {
+    color: tomato;
+    font-weight: lighter;
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+}
+
+hr {
+    color: gray;
+    height: 1px;
+    background-color: lightgray;
+}
+
+.headingstyle2 {
+    color: tomato;
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.6rem;
+    text-decoration-line: line-through;
+    text-decoration-thickness: 3px;
+    margin-top: 35px;
+}
+
+.boxw {
+    width: 18px;
+    height: 18px;
+    margin-left: 12px;
+}
+
+.check {
+    font-size: 1.5rem;
+    margin-bottom: 160px;
+}
+
+
+/* Adding Style to change the position */
+
+.location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid yellow */
+}
+
+.anchors {
+    margin: 20px 25px;
+    text-decoration: none;
+    font-size: 24px;
+    color: tomato;
+}
+
+
+/* Media */
+
+@media screen and (max-width: 1180px) {
+    .cards {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .cards {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 965px) {
+    .cards {
+        width: 38%;
+    }
+    .heading-add {
+        font-size: 2rem;
+        margin-left: 6px;
+    }
+    .heading-task {
+        font-size: 4rem;
+    }
+    .heading-list {
+        font-size: 4rem;
+    }
+    .fas {
+        font-size: 1.8rem;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .cards {
+        width: 42%;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .cards {
+        width: 44%;
+    }
+}
+
+@media screen and (max-width: 785px) {
+    .main-card {
+        justify-content: space-around;
+        align-items: center;
+    }
+    .cards {
+        width: 56%;
+    }
+    .heading-add {
+        display: none;
+    }
+    .heading-task {
+        font-size: 4rem;
+    }
+    .heading-list {
+        font-size: 4rem;
+    }
+    .fas {
+        font-size: 2.8rem;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .cards {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .cards {
+        width: 62%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .cards {
+        width: 67%;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .cards {
+        width: 95%;
+    }
+    .heading-task {
+        font-size: 3.5rem;
+    }
+    .heading-list {
+        font-size: 3.5rem;
+    }
+    .fas {
+        font-size: 2.2rem;
+        margin-top: 9px;
+    }
+    .data-tog {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .cards {
+        width: 98%;
+    }
+    .heading-task {
+        font-size: 3rem;
+    }
+    .heading-list {
+        font-size: 3rem;
+        margin-left: 6px;
+    }
+    .fas {
+        font-size: 2rem;
+        margin-top: 6px;
+    }
+    .data-tog {
+        display: none;
+    }
+    .anchors {
+        font-size: 20px;
+    }
+    .headingstyle {
+        font-size: 1.4rem;
+        margin-bottom: 10px;
+    }
+    .headingstyle2 {
+        font-size: 1.3rem;
+    }
+    .boxw {
+        width: 15px;
+        height: 15px;
+    }
+    .check {
+        font-size: 1.3rem;
+        margin-bottom: 140px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .cards {
+        width: 100%;
+    }
+    .heading-task {
+        font-size: 2rem;
+    }
+    .heading-list {
+        font-size: 2rem;
+        margin-left: 4px;
+    }
+    .fas {
+        font-size: 1.8rem;
+        margin-top: 2px;
+    }
+    .data-tog {
+        display: none;
+    }
+    .headingstyle {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+    .anchors {
+        font-size: 18px;
+    }
+    .headingstyle2 {
+        font-size: 1.3rem;
+    }
+    .boxw {
+        width: 14px;
+        height: 14px;
+    }
+    .check {
+        font-size: 1.2rem;
+        margin-bottom: 130px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .heading-task {
+        font-size: 1.5rem;
+    }
+    .heading-list {
+        font-size: 1.5rem;
+        margin-left: 2px;
+    }
+    .fas {
+        font-size: 1.1rem;
+        margin-top: 0px;
+    }
+    .data-tog {
+        display: none;
+    }
+    .headingstyle {
+        font-size: 1rem;
+        margin-bottom: 5px;
+    }
+    .anchors {
+        font-size: 15px;
+    }
+    .headingstyle2 {
+        font-size: 1rem;
+    }
+    .boxw {
+        width: 12px;
+        height: 12px;
+    }
+    .check {
+        font-size: 0.9rem;
+        margin-bottom: 120px;
+    }
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoList - UI</title>
+    <link rel="stylesheet" href="./css/Todo.css">
+    <link rel="stylesheet" href="./css/Todo3.css">
+    <link rel="icon" href="./Images/fav.jpg">
+    <link rel="stylesheet" href="./css/all.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="main-content">
+            <!-- Defining div for Heading and font awsome icon -->
+            <div class="main-heading">
+                <h1 class="heading-task">Tasks</h1>
+                <h1 class="heading-list">Lists</h1>
+
+
+                <!-- solid style -->
+                <i class="fas fa-plus-circle"></i>
+                <h2 class="heading-add">Add List</h2>
+            </div>
+            <!-- Adding the card to our main content -->
+            <div class="main-card">
+                <!-- This is my card 1-->
+                <div class="cards">
+                    <div class="card-heading data-tog">
+                        <h2 class="headingstyle">Trip to Paris</h2>
+                        <hr>
+                    </div>
+                    <div class="main-data">
+                        <h2 class="headingstyle2">Completed Task</h2>
+                        <div class="check">
+                            <input type="checkbox" name="Task" id="tasks1" class="boxw">
+                            <label for="tasks1">Pending Task</label>
+                        </div>
+                    </div>
+                </div>
+                <!-- This is my card 2-->
+                <div class="cards">
+                    <div class="card-heading data-tog">
+                        <h2 class="headingstyle">My Todo List</h2>
+                        <hr>
+                    </div>
+                    <div class="main-data">
+                        <h2 class="headingstyle2">Completed Task</h2>
+                        <div class="check">
+                            <input type="checkbox" name="Task" id="tasks2" class="boxw">
+                            <label for="tasks2">Pending Task</label>
+                        </div>
+                    </div>
+                </div>
+                <!-- This is my card 3-->
+                <div class="cards">
+                    <div class="card-heading">
+                        <h2 class="headingstyle">My Todo List</h2>
+                        <hr>
+                    </div>
+                    <div class="main-data data-tog">
+                        <h2 class="headingstyle2">Completed Task</h2>
+                        <div class="check">
+                            <input type="checkbox" name="Task" id="tasks3" class="boxw">
+                            <label for="tasks3">Pending Task</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Adding the Upper layer to our main page -->
+
+    <div class="upper-content">
+        <h2 class="heading-decoration">Add New List</h2>
+        <input type="text" name="Line" id="" class="boxtext">
+        <div class="button-style">
+            <a href="./index.html" class="anchors">
+                <p class="add-button">ADD</p>
+            </a>
+        </div>
+    </div>
+
+    <!-- Adding the Change position to our main page -->
+    <div class="location">
+        <a href="./todopage1.html" class="anchors"> <i class="fas fa-arrow-alt-circle-left"></i> Prev..</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="./todopage3.html" class="anchors">..Next  <i class="fas fa-arrow-alt-circle-right"></i></a>
+    </div>
+</body>
+<script src="./Todo.js"></script>
+
+</html>

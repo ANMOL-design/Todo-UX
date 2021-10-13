@@ -1,0 +1,166 @@
+.main-container {
+    position: relative;
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+}
+
+.upper-content {
+    width: 38%;
+    background-color: rgb(255, 255, 255);
+    /* Fallback color */
+    border: 1px solid tomato;
+    border-radius: 10px;
+    box-shadow: 6px 6px 7px 4px lightgray;
+    margin-bottom: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+}
+
+.heading-decoration {
+    color: tomato;
+    font-weight: 400;
+    font-size: 22px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boxtext {
+    width: 68%;
+    height: 35px;
+    border: 1px solid tomato;
+    border-radius: 6px;
+    box-shadow: 3px 3px 3px 2px lightgray;
+    outline: tomato;
+}
+
+.button-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-button {
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: tomato;
+    color: white;
+    font-size: 26px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anchors {
+    text-decoration: none;
+    margin: 0px;
+}
+
+.location {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* border: 1px solid yellow */
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+}
+
+
+/* Media */
+
+@media screen and (max-width: 1180px) {
+    .upper-content {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .upper-content {
+        width: 43%;
+    }
+    .add-button {
+        width: 96px;
+        height: 38px;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .upper-content {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 899px) {
+    .upper-content {
+        width: 52%;
+    }
+    .add-button {
+        width: 94px;
+        height: 36px;
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    .upper-content {
+        width: 65%;
+    }
+    .add-button {
+        width: 90px;
+        height: 34px;
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .upper-content {
+        width: 72%;
+    }
+    .add-button {
+        width: 88px;
+        height: 32px;
+        font-size: 22px;
+    }
+    .anchors {
+        font-size: 18px;
+    }
+    .fas {
+        font-size: 1.31rem;
+    }
+}
+
+@media screen and (max-width: 399px) {
+    .upper-content {
+        width: 80%;
+    }
+    .add-button {
+        width: 84px;
+        height: 30px;
+        font-size: 20px;
+    }
+    .anchors {
+        font-size: 16px;
+    }
+    .fas {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .upper-content {
+        width: 92%;
+    }
+}
